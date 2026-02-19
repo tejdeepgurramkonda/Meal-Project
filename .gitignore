@@ -1,0 +1,36 @@
+# System / OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
+*.iml
+
+# Frontend (React)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Backend (Spring Boot)
+backend/target/
+backend/build/
+backend/*.class
+backend/*.log
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# AI Service (Python/FastAPI)
+ai/__pycache__/
+ai/*.pyc
+ai/*.pyo
+ai/*.pyd
+ai/.venv/
+ai/venv/
+ai/env/
+ai/.env
+ai/.pytest_cache/
+ai/.ipynb_checkpoints/
